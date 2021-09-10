@@ -19,6 +19,8 @@ _LOGGER = logging.getLogger(__name__)
 STEP_USER_DATA_SCHEMA = vol.Schema(
     {
         vol.Required("host"): str,
+        vol.Required("snmpversion", default="2c"): vol.In(["1", "2c", "3"]),
+        vol.Required("cpuchecks"): bool,
         vol.Required("username"): str,
         vol.Required("password"): str,
     }
@@ -64,7 +66,7 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str,
     # InvalidAuth
 
     # Return info that you want to store in the config entry.
-    return {"title": "Name of the device"}
+    return {"title": data["host"]}
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):

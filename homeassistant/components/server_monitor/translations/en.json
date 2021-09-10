@@ -12,8 +12,10 @@
             "user": {
                 "data": {
                     "host": "Host",
+                    "cpuchecks": "CPU Checks",
                     "password": "Password",
-                    "username": "Username"
+                    "username": "Username",
+                    "test": "test"
                 }
             }
         }
