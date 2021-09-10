@@ -236,6 +236,7 @@ FLOWS = [
     "screenlogic",
     "sense",
     "sentry",
+    "server_monitor",
     "sharkiq",
     "shelly",
     "shopping_list",

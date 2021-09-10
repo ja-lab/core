@@ -1042,6 +1042,10 @@ pysmartapp==0.3.3
 # homeassistant.components.smartthings
 pysmartthings==0.7.6
 
+# homeassistant.components.server_monitor
+# homeassistant.components.snmp
+pysnmp==4.4.12
+
 # homeassistant.components.soma
 pysoma==0.0.10
 

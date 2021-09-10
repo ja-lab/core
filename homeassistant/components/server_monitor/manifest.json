@@ -1,0 +1,15 @@
+{
+  "domain": "server_monitor",
+  "name": "Server Monitor",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/server_monitor",
+  "requirements": ["pysnmp==4.4.12"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@ja-lab"
+  ],
+  "iot_class": "local_polling"
+}
