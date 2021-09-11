@@ -1043,6 +1043,9 @@ pysmartapp==0.3.3
 pysmartthings==0.7.6
 
 # homeassistant.components.server_monitor
+pysnmp-mibs==0.1.6
+
+# homeassistant.components.server_monitor
 # homeassistant.components.snmp
 pysnmp==4.4.12
 

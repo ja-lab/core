@@ -1799,6 +1799,9 @@ pysmarty==0.8
 pysml==0.0.5
 
 # homeassistant.components.server_monitor
+pysnmp-mibs==0.1.6
+
+# homeassistant.components.server_monitor
 # homeassistant.components.snmp
 pysnmp==4.4.12
 

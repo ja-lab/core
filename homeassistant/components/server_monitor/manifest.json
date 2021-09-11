@@ -3,7 +3,7 @@
   "name": "Server Monitor",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/server_monitor",
-  "requirements": ["pysnmp==4.4.12"],
+  "requirements": ["pysnmp==4.4.12","pysnmp-mibs==0.1.6"],
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},
